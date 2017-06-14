@@ -1,0 +1,134 @@
+ body {
+     font-family: "Microsoft YaHei";
+     background-color: #eee;
+ }
+ 
+ .container {
+     width: 5.4rem;
+     margin: 0 auto;
+ }
+ 
+ div.head {
+     width: 100%;
+     height: 0.85rem;
+     line-height: 0.85rem;
+     text-align: center;
+     font-size: 0.27rem;
+     color: #fff;
+     background-color: #22c5fc;
+ }
+ 
+ .banner {
+     width: 100%;
+     height: 2.6rem;
+ }
+ 
+ .banner>img {
+     display: block;
+     width: 100%;
+ }
+ 
+ .info {
+     width: 100%;
+     height: 0.65rem;
+     line-height: 0.65rem;
+     text-align: center;
+     font-size: 0.16rem;
+     border-bottom: 0.01rem solid #d1d1d1;
+ }
+ 
+ .info>span {
+     display: inline-block;
+     font-family: "Microsoft YaHei";
+     font-size: 0.15rem;
+ }
+ 
+ .info>img {
+     display: inline-block;
+     width: 0.4rem;
+     height: .3rem;
+     margin: 0 0.05rem;
+     vertical-align: middle;
+ }
+ 
+ .info>a {
+     display: inline-block;
+     font-size: 0.16rem;
+     color: #22c5fc;
+ }
+ 
+ .content {
+     width: 5.4rem;
+     height:100%;
+     padding-top: 0.27rem;
+     font-size: 0.15rem;
+ }
+ 
+ .service-list {
+     width: 100%;
+     overflow: hidden;
+ }
+ 
+ .service-list>li {
+     float: left;
+     width: 0.93rem;
+     margin: 0 0.21rem 0.3rem 0.21rem;
+     text-align: center;
+ }
+ 
+ .service-list>li span {
+     display: inline-block;
+     margin-top: 0.08rem;
+     font-size: 0.16rem;
+     color: black;
+ }
+ 
+ .footer {
+     width: 100%;
+     height: 0.87rem;
+     font-size: 0rem;
+     bottom: 0;
+ }
+ 
+ .footer>ul>li {
+     float: left;
+     width: 1.08rem;
+     height: 0.87rem;
+     font-size: 0rem;
+     background: url(../images/footer_btn_02.png) no-repeat left center;
+     background-size: contain;
+     transition: border 0.5s ease;
+     text-align: center;
+ }
+ 
+ .footer>ul>li:hover {
+     border-bottom: 3px solid #22c5fc;
+     cursor: pointer;
+ }
+ 
+ .footer>ul>li>span {
+     display: inline-block;
+     font-size: 0.14rem;
+     color: #9e9d9d;
+     margin-top: 0.6rem;
+ }
+ 
+ .footer>ul>li.second {
+     background: url(../images/footer_btn_03.png) no-repeat left center;
+     background-size: contain;
+ }
+ 
+ .footer>ul>li.third {
+     background: url(../images/footer_btn_04.png) no-repeat left center;
+     background-size: contain;
+ }
+ 
+ .footer>ul>li.forth {
+     background: url(../images/footer_btn_05.png) no-repeat left center;
+     background-size: contain;
+ }
+ 
+ .footer>ul>li.fifth {
+     background: url(../images/footer_btn_06.png) no-repeat left center;
+     background-size: contain;
+ }
