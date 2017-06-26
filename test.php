@@ -18,14 +18,12 @@ header('Content-type:text/html;charset=utf-8');
 //配置您申请的appkey
 $appkey = "b7a3c46ea7ef7e567d910f980221d8e5";
 
-
-
-
+$num=$_REQUEST['num'];
 //************1.查询周边WIFI************
 $url = "http://api.chinadatapay.com/medical/health/1572";
 $params = array(
-"page" => "1",//请求页数，默认page=1
-"rows" => "20",//每页返回的条数，默认rows=20
+"page" => $num,//请求页数，默认page=1
+"rows" => "10",//每页返回的条数，默认rows=20
 "id" => "",//分类ID，默认返回的是全部。这里的ID就是指分类的ID
 "key" => $appkey,//应用APPKEY(应用详细页查询)
 "dtype" => "",//返回数据的格式,xml或json，默认json
